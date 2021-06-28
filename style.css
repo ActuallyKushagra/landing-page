@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+#headaar {
+    height: 60px;
+    padding-top: 10px;
+}
+#mainLogo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    margin-right: -20px;
+}
+nav ul {
+    list-style-type: none;  
+}
+nav a {
+    text-decoration: none;
+    color: #e8ae84;
+    font-family: CoffeeWithSugar;
+    font-size: x-large;
+}
+#flexContainer {
+    display: flex; 
+}
+nav li {
+    padding-right: 10px;
+}
+#headerDiv {
+    background-color: #825342;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: grey;
+    
+}
+@font-face {
+    font-family: CoffeeWithSugar;
+    src: url(CoffeewithSugar.ttf);
+}
+nav button {
+    padding: 3px;
+    border-radius: 20px;
+    min-width: 120px;
+    color: #e8ae84;
+    font-family: CoffeeWithSugar;
+    font-size: x-large;
+    background-color: #301505;
+}
+#leftNav ul {
+    display: flex;
+}
+#rightNav ul {
+    display: flex;
+}
+#rightButt {
+    margin-top: -8px;
+}
+#rightNav {
+    margin-left: 600px;
+} /* Header ends here */
+
+.Announcer {
+    height: 120px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: #cfa48f;
+}
+.para {
+    text-align: center;
+    padding-top: 10px;
+}
+.heading {
+    text-align: center;
+    padding-top: 10px;
+}
+.Announcer p {
+    font-family: 'Courier New', Courier, monospace;
+}
+@font-face {
+    font-family: chawp;
+    src: url(chawp.ttf);
+}
+.Offer {
+    border-style: solid;
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    font-family: chawp;
+    text-align: center;
+    border-color:black;
+}
+.offerBoard {
+    font-size: 50px;
+}
+.TnC {
+    font-size: 10px;
+    padding-top: 30px;
+}
+.Offer a {
+    color: white;
+}
+.offerpanel  {
+    text-decoration: none;
+}
+.services {
+   
+    height: auto;
+}
+.serviceOne {
+    height: auto;
+    background-color: #b48768;
+}
+.PanelOneLeft {
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+.PanelOneRight {
+    display: flex;
+    width: 50%;
+    height: 300px;
+}
+.PanelOneRight img {
+    width: 100%;
+}
+.services p {
+    font-family: CoffeeWithSugar;
+    color: #2d2017;
+    font-size: 40px;
+    text-align: center;
+}
+.PanelOneButton {
+    padding: 3px;
+    border-radius: 20px;
+    width: 140px;
+    color: #e8ae84;
+    font-family: CoffeeWithSugar;
+    font-size: x-large;
+    background-color: #301505;
+}
+.PanelTwoLeft {
+    width: 50%;
+    height: 300px;
+    display: flex;
+}
+.PanelTwoLeft img {
+    width: 100%;
+}
+.PanelTwoRight {
+    width: 50%;
+    height: 300px;
+    
+}
+.serviceTwo {
+    height: auto;
+    background-color: #b48768;
+}
+footer  {
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    
+}
+footer ul {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+.footerDiv {
+    background-color: #825342;
+    border-style: solid;
+    border-color: #825342;
+    border-top-color: black;
+    border-top-width: 1px;
+}
